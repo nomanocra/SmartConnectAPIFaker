@@ -6,11 +6,11 @@ A JSON Server-based API faker for SmartConnect application.
 
 This repository contains a JSON Server setup that provides fake API endpoints for the SmartConnect application. It includes mock data for:
 
-- User authentication
+- User authentication and tokens
 - Monitoring devices and locations
-- Product management
-- Order management
-- Categories
+- Devices Sensors
+- Sensors Values and status
+- Sensors History
 
 ## Setup
 
@@ -31,9 +31,6 @@ json-server --watch db.json
 - `/users` - User authentication data
 - `/tokens` - Authentication tokens
 - `/monitoringList` - Device monitoring hierarchy
-- `/products` - Product catalog
-- `/orders` - Order information
-- `/categories` - Product categories
 
 ## Data Structure
 
