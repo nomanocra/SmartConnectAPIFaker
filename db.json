@@ -1,7 +1,7 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "usr_a1b2c3d4",
       "username": "admin",
       "email": "admin@example.com",
       "password": "$2a$10$X7UrE2JzJ3QZ8Z8Z8Z8Z8O8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8",
@@ -11,7 +11,7 @@
       "lastLogin": "2024-03-20T10:00:00Z"
     },
     {
-      "id": 2,
+      "id": "usr_e5f6g7h8",
       "username": "user1",
       "email": "user1@example.com",
       "password": "$2a$10$X7UrE2JzJ3QZ8Z8Z8Z8Z8O8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8",
@@ -21,7 +21,7 @@
       "lastLogin": "2024-03-19T15:30:00Z"
     },
     {
-      "id": 3,
+      "id": "usr_i9h8g7f6",
       "username": "inactive_user",
       "email": "inactive@example.com",
       "password": "$2a$10$X7UrE2JzJ3QZ8Z8Z8Z8Z8O8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8Z8",
@@ -34,44 +34,603 @@
   "tokens": [
     {
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInJvbGUiOiJhZG1pbiJ9",
-      "userId": 1,
+      "userId": "usr_a1b2c3d4",
       "expiresAt": "2024-03-27T10:00:00Z",
       "isValid": true
     },
     {
       "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjIsInJvbGUiOiJ1c2VyIn0",
-      "userId": 2,
+      "userId": "usr_e5f6g7h8",
       "expiresAt": "2024-03-26T15:30:00Z",
       "isValid": true
     }
   ],
   "monitoringList": [
     {
-      "id": "1",
-      "label": "Toulouse",
+      "id": "reg_sw123456",
+      "name": "Sud-Ouest",
       "children": [
-        { "id": "1.1", "label": "Devices1" },
-        { "id": "1.2", "label": "Devices2" },
-        { "id": "1.3", "label": "Devices3" },
-        { "id": "1.4", "label": "Devices4" }
+        {
+          "id": "cty_7f8e9d0c",
+          "name": "Toulouse",
+          "children": [
+            {
+              "id": "ste_aero123",
+              "name": "Site Aero",
+              "children": [
+                {
+                  "id": "fct_1a2b3c4d",
+                  "name": "Hangar A",
+                  "gatewayId": "ZFR52036JI"
+                },
+                {
+                  "id": "fct_5e6f7g8h",
+                  "name": "Hangar B",
+                  "gatewayId": "ZFR52037JI"
+                }
+              ]
+            },
+            {
+              "id": "ste_log789",
+              "name": "Centre Logistique",
+              "children": [
+                {
+                  "id": "bld_9a8b7c6",
+                  "name": "Entrepôt Principal",
+                  "gatewayId": "ZFR52038JI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cty_9i8h7g6f",
+          "name": "Bordeaux",
+          "children": [
+            {
+              "id": "ste_port123",
+              "name": "Zone Portuaire",
+              "children": [
+                {
+                  "id": "bld_5e4d3c2b",
+                  "name": "Terminal 1",
+                  "gatewayId": "ZFR52034JI"
+                },
+                {
+                  "id": "bld_1a2b3c4d",
+                  "name": "Terminal 2",
+                  "gatewayId": "ZFR52035JI"
+                }
+              ]
+            }
+          ]
+        }
       ]
     },
     {
-      "id": "2",
-      "label": "Paris",
+      "id": "reg_se789012",
+      "name": "Sud-Est",
       "children": [
-        { "id": "2.1", "label": "Devices5" },
         {
-          "id": "2.2",
-          "label": "Building1",
+          "id": "cty_mrs345",
+          "name": "Marseille",
           "children": [
-            { "id": "2.2.1", "label": "Devices6" },
-            { "id": "2.2.2", "label": "Devices7" },
-            { "id": "2.2.3", "label": "Devices8" },
-            { "id": "2.2.4", "label": "Devices9" }
+            {
+              "id": "ste_port456",
+              "name": "Port Maritime",
+              "children": [
+                {
+                  "id": "bld_dock123",
+                  "name": "Dock A",
+                  "gatewayId": "ZFR52039JI"
+                },
+                {
+                  "id": "bld_dock456",
+                  "name": "Dock B",
+                  "gatewayId": "ZFR52040JI"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cty_nice789",
+          "name": "Nice",
+          "children": [
+            {
+              "id": "ste_tech123",
+              "name": "Technopole",
+              "children": [
+                {
+                  "id": "bld_lab123",
+                  "name": "Laboratoire R&D",
+                  "gatewayId": "ZFR52041JI"
+                }
+              ]
+            }
           ]
         }
       ]
     }
-  ]
+  ],
+  "deviceSensors": {
+    "fct_1a2b3c4d": {
+      "id": "fct_1a2b3c4d",
+      "gatewayId": "ZFR52036JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:40:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_hang1",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 45,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_temp_hang1",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 22,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_pres_hang1",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1013,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        },
+        {
+          "id": "sen_co2_hang1",
+          "name": "Carbon dioxide",
+          "type": "co2",
+          "value": 800,
+          "unit": "ppm",
+          "isAlert": false,
+          "icon": "co2"
+        },
+        {
+          "id": "sen_part_hang1",
+          "name": "Particulate Matter",
+          "type": "particulate",
+          "value": 1.2,
+          "unit": "µg/m³",
+          "isAlert": false,
+          "icon": "particulate"
+        },
+        {
+          "id": "sen_door_hang1",
+          "name": "Main Door",
+          "type": "door",
+          "value": "Closed",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_occ_hang1",
+          "name": "People Count",
+          "type": "occupancy",
+          "value": 15,
+          "unit": null,
+          "isAlert": false,
+          "icon": "people"
+        }
+      ]
+    },
+    "fct_5e6f7g8h": {
+      "id": "fct_5e6f7g8h",
+      "gatewayId": "ZFR52037JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:45:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_hang2",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 48,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_temp_hang2",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 23,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_pres_hang2",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1012,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        },
+        {
+          "id": "sen_co2_hang2",
+          "name": "Carbon dioxide",
+          "type": "co2",
+          "value": 850,
+          "unit": "ppm",
+          "isAlert": false,
+          "icon": "co2"
+        },
+        {
+          "id": "sen_part_hang2",
+          "name": "Particulate Matter",
+          "type": "particulate",
+          "value": 1.5,
+          "unit": "µg/m³",
+          "isAlert": false,
+          "icon": "particulate"
+        },
+        {
+          "id": "sen_door_hang2",
+          "name": "Main Door",
+          "type": "door",
+          "value": "Closed",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_occ_hang2",
+          "name": "People Count",
+          "type": "occupancy",
+          "value": 12,
+          "unit": null,
+          "isAlert": false,
+          "icon": "people"
+        }
+      ]
+    },
+    "bld_5e4d3c2b": {
+      "id": "bld_5e4d3c2b",
+      "gatewayId": "ZFR52034JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:30:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_term1",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 65,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_temp_term1",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 20,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_co2_term1",
+          "name": "Carbon dioxide",
+          "type": "co2",
+          "value": 800,
+          "unit": "ppm",
+          "isAlert": false,
+          "icon": "co2"
+        },
+        {
+          "id": "sen_door_term1",
+          "name": "Main Gate",
+          "type": "door",
+          "value": "Open",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_occ_term1",
+          "name": "People Count",
+          "type": "occupancy",
+          "value": 25,
+          "unit": null,
+          "isAlert": false,
+          "icon": "people"
+        },
+        {
+          "id": "sen_light_term1",
+          "name": "Emergency Light",
+          "type": "light",
+          "value": "OFF",
+          "unit": null,
+          "isAlert": false,
+          "icon": "light"
+        }
+      ]
+    },
+    "bld_1a2b3c4d": {
+      "id": "bld_1a2b3c4d",
+      "gatewayId": "ZFR52035JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:35:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_term2",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 48,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_co2_term2",
+          "name": "Carbon dioxide",
+          "type": "co2",
+          "value": 950,
+          "unit": "ppm",
+          "isAlert": false,
+          "icon": "co2"
+        },
+        {
+          "id": "sen_temp_term2",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 22,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_door_term2",
+          "name": "Main Gate",
+          "type": "door",
+          "value": "Closed",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_occ_term2",
+          "name": "People Count",
+          "type": "occupancy",
+          "value": 15,
+          "unit": null,
+          "isAlert": false,
+          "icon": "people"
+        }
+      ]
+    },
+    "bld_dock123": {
+      "id": "bld_dock123",
+      "gatewayId": "ZFR52039JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:50:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_dock1",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 75,
+          "unit": "%",
+          "isAlert": true,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_temp_dock1",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 28,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_pres_dock1",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1013,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        },
+        {
+          "id": "sen_wind_dock1",
+          "name": "Wind Speed",
+          "type": "wind",
+          "value": 12,
+          "unit": "km/h",
+          "isAlert": false,
+          "icon": "wind"
+        },
+        {
+          "id": "sen_wave_dock1",
+          "name": "Wave Height",
+          "type": "wave",
+          "value": 0.5,
+          "unit": "m",
+          "isAlert": false,
+          "icon": "wave"
+        }
+      ]
+    },
+    "bld_lab123": {
+      "id": "bld_lab123",
+      "gatewayId": "ZFR52041JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:55:00Z",
+      "sensors": [
+        {
+          "id": "sen_temp_lab1",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 21,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_hum_lab1",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 45,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_part_lab1",
+          "name": "Particulate Matter",
+          "type": "particulate",
+          "value": 0.5,
+          "unit": "µg/m³",
+          "isAlert": false,
+          "icon": "particulate"
+        },
+        {
+          "id": "sen_o2_lab1",
+          "name": "Oxygen Level",
+          "type": "oxygen",
+          "value": 20.9,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "oxygen"
+        },
+        {
+          "id": "sen_co2_lab1",
+          "name": "Carbon dioxide",
+          "type": "co2",
+          "value": 400,
+          "unit": "ppm",
+          "isAlert": false,
+          "icon": "co2"
+        },
+        {
+          "id": "sen_pres_lab1",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1013,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        }
+      ]
+    },
+    "bld_9a8b7c6": {
+      "id": "bld_9a8b7c6",
+      "gatewayId": "ZFR52038JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:45:00Z",
+      "sensors": [
+        {
+          "id": "sen_temp_ent1",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 18,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_hum_ent1",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 55,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_mov_ent1",
+          "name": "Movement Detector",
+          "type": "movement",
+          "value": "Active",
+          "unit": null,
+          "isAlert": true,
+          "icon": "movement"
+        },
+        {
+          "id": "sen_door_ent1",
+          "name": "Loading Door",
+          "type": "door",
+          "value": "Closed",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_occ_ent1",
+          "name": "People Count",
+          "type": "occupancy",
+          "value": 8,
+          "unit": null,
+          "isAlert": false,
+          "icon": "people"
+        },
+        {
+          "id": "sen_light_ent1",
+          "name": "Emergency Light",
+          "type": "light",
+          "value": "OFF",
+          "unit": null,
+          "isAlert": false,
+          "icon": "light"
+        }
+      ]
+    },
+    "bld_dock456": {
+      "id": "bld_dock456",
+      "gatewayId": "ZFR52040JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T14:52:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_dock2",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 72,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_temp_dock2",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 26,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_pres_dock2",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1012,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        },
+        {
+          "id": "sen_wind_dock2",
+          "name": "Wind Speed",
+          "type": "wind",
+          "value": 15,
+          "unit": "km/h",
+          "isAlert": false,
+          "icon": "wind"
+        }
+      ]
+    }
+  }
 }
