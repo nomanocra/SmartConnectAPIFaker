@@ -69,6 +69,12 @@
                   "name": "Hangar B",
                   "gatewayId": "ZFR52037JI",
                   "status": "Connected"
+                },
+                {
+                  "id": "fct_9i8h7g6f",
+                  "name": "Hangar C",
+                  "gatewayId": "ZFR52042JI",
+                  "status": "Disconnected"
                 }
               ]
             },
