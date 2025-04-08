@@ -645,6 +645,77 @@
           "icon": "wind"
         }
       ]
+    },
+    "fct_9i8h7g6f": {
+      "id": "fct_9i8h7g6f",
+      "gatewayId": "ZFR52042JI",
+      "isConnected": false,
+      "lastUpdate": "2024-03-19T10:00:00Z",
+      "sensors": [
+        {
+          "id": "sen_hum_hang3",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 42,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_temp_hang3",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 21,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_pres_hang3",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1013,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        },
+        {
+          "id": "sen_co2_hang3",
+          "name": "Carbon dioxide",
+          "type": "co2",
+          "value": 750,
+          "unit": "ppm",
+          "isAlert": false,
+          "icon": "co2"
+        },
+        {
+          "id": "sen_part_hang3",
+          "name": "Particulate Matter",
+          "type": "particulate",
+          "value": 1.0,
+          "unit": "µg/m³",
+          "isAlert": false,
+          "icon": "particulate"
+        },
+        {
+          "id": "sen_door_hang3",
+          "name": "Main Door",
+          "type": "door",
+          "value": "Closed",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_occ_hang3",
+          "name": "People Count",
+          "type": "occupancy",
+          "value": 0,
+          "unit": null,
+          "isAlert": false,
+          "icon": "people"
+        }
+      ]
     }
   }
 }
