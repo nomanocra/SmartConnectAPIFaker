@@ -47,126 +47,114 @@
   ],
   "monitoringList": [
     {
-      "id": "reg_sw123456",
-      "name": "Sud-Ouest",
+      "id": "cty_7f8e9d0c",
+      "name": "Toulouse",
       "children": [
         {
-          "id": "cty_7f8e9d0c",
-          "name": "Toulouse",
+          "id": "ste_aero123",
+          "name": "Site Aero",
           "children": [
             {
-              "id": "ste_aero123",
-              "name": "Site Aero",
-              "children": [
-                {
-                  "id": "fct_1a2b3c4d",
-                  "name": "Hangar A",
-                  "gatewayId": "ZFR52036JI",
-                  "status": "Connected"
-                },
-                {
-                  "id": "fct_5e6f7g8h",
-                  "name": "Hangar B",
-                  "gatewayId": "ZFR52037JI",
-                  "status": "Connected"
-                },
-                {
-                  "id": "fct_9i8h7g6f",
-                  "name": "Hangar C",
-                  "gatewayId": "ZFR52042JI",
-                  "status": "Disconnected"
-                }
-              ]
+              "id": "fct_1a2b3c4d",
+              "name": "Hangar A",
+              "gatewayId": "ZFR52036JI",
+              "status": "Connected"
             },
             {
-              "id": "ste_log789",
-              "name": "Centre Logistique",
-              "children": [
-                {
-                  "id": "bld_9a8b7c6",
-                  "name": "Entrepôt Principal",
-                  "gatewayId": "ZFR52038JI",
-                  "status": "Alert"
-                }
-              ]
+              "id": "fct_5e6f7g8h",
+              "name": "Hangar B",
+              "gatewayId": "ZFR52037JI",
+              "status": "Connected"
+            },
+            {
+              "id": "fct_9i8h7g6f",
+              "name": "Hangar C",
+              "gatewayId": "ZFR52042JI",
+              "status": "Disconnected"
             }
           ]
         },
         {
-          "id": "cty_9i8h7g6f",
-          "name": "Bordeaux",
+          "id": "ste_log789",
+          "name": "Centre Logistique",
           "children": [
             {
-              "id": "ste_port123",
-              "name": "Zone Portuaire",
-              "children": [
-                {
-                  "id": "bld_5e4d3c2b",
-                  "name": "Terminal 1",
-                  "gatewayId": "ZFR52034JI",
-                  "status": "Connected"
-                },
-                {
-                  "id": "bld_1a2b3c4d",
-                  "name": "Terminal 2",
-                  "gatewayId": "ZFR52035JI",
-                  "status": "Connected"
-                }
-              ]
+              "id": "bld_9a8b7c6",
+              "name": "Entrepôt Principal",
+              "gatewayId": "ZFR52038JI",
+              "status": "Alert"
             }
           ]
         }
       ]
     },
     {
-      "id": "reg_se789012",
-      "name": "Sud-Est",
+      "id": "cty_9i8h7g6f",
+      "name": "Bordeaux",
       "children": [
         {
-          "id": "cty_mrs345",
-          "name": "Marseille",
+          "id": "ste_port123",
+          "name": "Zone Portuaire",
           "children": [
             {
-              "id": "ste_port456",
-              "name": "Port Maritime",
-              "children": [
-                {
-                  "id": "bld_dock123",
-                  "name": "Dock A",
-                  "gatewayId": "ZFR52039JI",
-                  "status": "Alert"
-                },
-                {
-                  "id": "bld_dock456",
-                  "name": "Dock B",
-                  "gatewayId": "ZFR52040JI",
-                  "status": "Connected"
-                }
-              ]
+              "id": "bld_5e4d3c2b",
+              "name": "Terminal 1",
+              "gatewayId": "ZFR52034JI",
+              "status": "Connected"
+            },
+            {
+              "id": "bld_1a2b3c4d",
+              "name": "Terminal 2",
+              "gatewayId": "ZFR52035JI",
+              "status": "Connected"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "cty_mrs345",
+      "name": "Marseille",
+      "children": [
         {
-          "id": "cty_nice789",
-          "name": "Nice",
+          "id": "ste_port456",
+          "name": "Port Maritime",
           "children": [
             {
-              "id": "ste_tech123",
-              "name": "Technopole",
-              "children": [
-                {
-                  "id": "bld_lab123",
-                  "name": "Laboratoire R&D",
-                  "gatewayId": "ZFR52041JI",
-                  "status": "Connected"
-                },
-                {
-                  "id": "bld_white123",
-                  "name": "Salle Blanche",
-                  "gatewayId": "ZFR52043JI",
-                  "status": "Connected"
-                }
-              ]
+              "id": "bld_dock123",
+              "name": "Dock A",
+              "gatewayId": "ZFR52039JI",
+              "status": "Alert"
+            },
+            {
+              "id": "bld_dock456",
+              "name": "Dock B",
+              "gatewayId": "ZFR52040JI",
+              "status": "Connected"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cty_nice789",
+      "name": "Nice",
+      "children": [
+        {
+          "id": "ste_tech123",
+          "name": "Technopole",
+          "children": [
+            {
+              "id": "bld_lab123",
+              "name": "Laboratoire R&D",
+              "gatewayId": "ZFR52041JI",
+              "status": "Connected"
+            },
+            {
+              "id": "bld_white123",
+              "name": "Salle Blanche",
+              "gatewayId": "ZFR52043JI",
+              "status": "Connected"
             }
           ]
         }
