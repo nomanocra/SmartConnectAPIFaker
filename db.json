@@ -159,6 +159,12 @@
                   "name": "Laboratoire R&D",
                   "gatewayId": "ZFR52041JI",
                   "status": "Connected"
+                },
+                {
+                  "id": "bld_white123",
+                  "name": "Salle Blanche",
+                  "gatewayId": "ZFR52043JI",
+                  "status": "Connected"
                 }
               ]
             }
@@ -714,6 +720,86 @@
           "unit": null,
           "isAlert": false,
           "icon": "people"
+        }
+      ]
+    },
+    "bld_white123": {
+      "id": "bld_white123",
+      "gatewayId": "ZFR52043JI",
+      "isConnected": true,
+      "lastUpdate": "2024-03-20T15:00:00Z",
+      "sensors": [
+        {
+          "id": "sen_temp_white1",
+          "name": "Temperature",
+          "type": "temperature",
+          "value": 20,
+          "unit": "°C",
+          "isAlert": false,
+          "icon": "temperature"
+        },
+        {
+          "id": "sen_hum_white1",
+          "name": "Humidity",
+          "type": "humidity",
+          "value": 45,
+          "unit": "%",
+          "isAlert": false,
+          "icon": "humidity"
+        },
+        {
+          "id": "sen_pres_white1",
+          "name": "Pressure",
+          "type": "pressure",
+          "value": 1013,
+          "unit": "hPa",
+          "isAlert": false,
+          "icon": "pressure"
+        },
+        {
+          "id": "sen_part_white1",
+          "name": "Particle Count",
+          "type": "particulate",
+          "value": 0.1,
+          "unit": "particles/m³",
+          "isAlert": false,
+          "icon": "particulate"
+        },
+        {
+          "id": "sen_air_white1",
+          "name": "Air Flow",
+          "type": "airflow",
+          "value": 0.45,
+          "unit": "m/s",
+          "isAlert": false,
+          "icon": "airflow"
+        },
+        {
+          "id": "sen_clean_white1",
+          "name": "Cleanliness Class",
+          "type": "cleanliness",
+          "value": "ISO 7",
+          "unit": null,
+          "isAlert": false,
+          "icon": "cleanliness"
+        },
+        {
+          "id": "sen_door_white1",
+          "name": "Clean Room Door",
+          "type": "door",
+          "value": "Closed",
+          "unit": null,
+          "isAlert": false,
+          "icon": "door"
+        },
+        {
+          "id": "sen_uv_white1",
+          "name": "UV Light",
+          "type": "uv",
+          "value": "OFF",
+          "unit": null,
+          "isAlert": false,
+          "icon": "uv"
         }
       ]
     }
