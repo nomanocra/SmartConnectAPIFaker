@@ -175,7 +175,8 @@
           "value": 45,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         },
         {
           "id": "sen_temp_hang1",
@@ -184,7 +185,8 @@
           "value": 22,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         },
         {
           "id": "sen_pres_hang1",
@@ -193,7 +195,8 @@
           "value": 1013,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         },
         {
           "id": "sen_co2_hang1",
@@ -202,7 +205,8 @@
           "value": 800,
           "unit": "ppm",
           "isAlert": false,
-          "icon": "co2"
+          "icon": "co2",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         },
         {
           "id": "sen_part_hang1",
@@ -211,7 +215,8 @@
           "value": 1.2,
           "unit": "µg/m³",
           "isAlert": false,
-          "icon": "particulate"
+          "icon": "particulate",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         },
         {
           "id": "sen_door_hang1",
@@ -220,7 +225,8 @@
           "value": "Closed",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         },
         {
           "id": "sen_occ_hang1",
@@ -229,7 +235,8 @@
           "value": 15,
           "unit": null,
           "isAlert": false,
-          "icon": "people"
+          "icon": "people",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         }
       ]
     },
@@ -246,7 +253,8 @@
           "value": 48,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_temp_hang2",
@@ -255,7 +263,8 @@
           "value": 23,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_pres_hang2",
@@ -264,7 +273,8 @@
           "value": 1012,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_co2_hang2",
@@ -273,7 +283,8 @@
           "value": 850,
           "unit": "ppm",
           "isAlert": false,
-          "icon": "co2"
+          "icon": "co2",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_part_hang2",
@@ -282,7 +293,8 @@
           "value": 1.5,
           "unit": "µg/m³",
           "isAlert": false,
-          "icon": "particulate"
+          "icon": "particulate",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_door_hang2",
@@ -291,7 +303,8 @@
           "value": "Closed",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_occ_hang2",
@@ -300,7 +313,8 @@
           "value": 12,
           "unit": null,
           "isAlert": false,
-          "icon": "people"
+          "icon": "people",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         }
       ]
     },
@@ -317,7 +331,8 @@
           "value": 65,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:30:00Z"
         },
         {
           "id": "sen_temp_term1",
@@ -326,7 +341,8 @@
           "value": 20,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:30:00Z"
         },
         {
           "id": "sen_co2_term1",
@@ -335,7 +351,8 @@
           "value": 800,
           "unit": "ppm",
           "isAlert": false,
-          "icon": "co2"
+          "icon": "co2",
+          "lastUpdate": "2024-03-20T14:30:00Z"
         },
         {
           "id": "sen_door_term1",
@@ -344,7 +361,8 @@
           "value": "Open",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-20T14:30:00Z"
         },
         {
           "id": "sen_occ_term1",
@@ -353,7 +371,8 @@
           "value": 25,
           "unit": null,
           "isAlert": false,
-          "icon": "people"
+          "icon": "people",
+          "lastUpdate": "2024-03-20T14:30:00Z"
         },
         {
           "id": "sen_light_term1",
@@ -362,7 +381,8 @@
           "value": "OFF",
           "unit": null,
           "isAlert": false,
-          "icon": "light"
+          "icon": "light",
+          "lastUpdate": "2024-03-20T14:30:00Z"
         }
       ]
     },
@@ -379,7 +399,8 @@
           "value": 48,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:35:00Z"
         },
         {
           "id": "sen_co2_term2",
@@ -388,7 +409,8 @@
           "value": 950,
           "unit": "ppm",
           "isAlert": false,
-          "icon": "co2"
+          "icon": "co2",
+          "lastUpdate": "2024-03-20T14:35:00Z"
         },
         {
           "id": "sen_temp_term2",
@@ -397,7 +419,8 @@
           "value": 22,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:35:00Z"
         },
         {
           "id": "sen_door_term2",
@@ -406,7 +429,8 @@
           "value": "Closed",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-20T14:35:00Z"
         },
         {
           "id": "sen_occ_term2",
@@ -415,7 +439,8 @@
           "value": 15,
           "unit": null,
           "isAlert": false,
-          "icon": "people"
+          "icon": "people",
+          "lastUpdate": "2024-03-20T14:35:00Z"
         }
       ]
     },
@@ -432,7 +457,8 @@
           "value": 75,
           "unit": "%",
           "isAlert": true,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:50:00Z"
         },
         {
           "id": "sen_temp_dock1",
@@ -441,7 +467,8 @@
           "value": 28,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:50:00Z"
         },
         {
           "id": "sen_pres_dock1",
@@ -450,7 +477,8 @@
           "value": 1013,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-20T14:50:00Z"
         },
         {
           "id": "sen_wind_dock1",
@@ -459,7 +487,8 @@
           "value": 12,
           "unit": "km/h",
           "isAlert": false,
-          "icon": "wind"
+          "icon": "wind",
+          "lastUpdate": "2024-03-20T14:50:00Z"
         },
         {
           "id": "sen_wave_dock1",
@@ -468,7 +497,8 @@
           "value": 0.5,
           "unit": "m",
           "isAlert": false,
-          "icon": "wave"
+          "icon": "wave",
+          "lastUpdate": "2024-03-20T14:50:00Z"
         }
       ]
     },
@@ -485,7 +515,8 @@
           "value": 21,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         },
         {
           "id": "sen_hum_lab1",
@@ -494,7 +525,8 @@
           "value": 45,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         },
         {
           "id": "sen_part_lab1",
@@ -503,7 +535,8 @@
           "value": 0.5,
           "unit": "µg/m³",
           "isAlert": false,
-          "icon": "particulate"
+          "icon": "particulate",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         },
         {
           "id": "sen_o2_lab1",
@@ -512,7 +545,8 @@
           "value": 20.9,
           "unit": "%",
           "isAlert": false,
-          "icon": "oxygen"
+          "icon": "oxygen",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         },
         {
           "id": "sen_co2_lab1",
@@ -521,7 +555,8 @@
           "value": 400,
           "unit": "ppm",
           "isAlert": false,
-          "icon": "co2"
+          "icon": "co2",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         },
         {
           "id": "sen_pres_lab1",
@@ -530,7 +565,8 @@
           "value": 1013,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         }
       ]
     },
@@ -547,7 +583,8 @@
           "value": 18,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_hum_ent1",
@@ -556,7 +593,8 @@
           "value": 55,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_mov_ent1",
@@ -565,7 +603,8 @@
           "value": "Active",
           "unit": null,
           "isAlert": true,
-          "icon": "movement"
+          "icon": "movement",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_door_ent1",
@@ -574,7 +613,8 @@
           "value": "Closed",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_occ_ent1",
@@ -583,7 +623,8 @@
           "value": 8,
           "unit": null,
           "isAlert": false,
-          "icon": "people"
+          "icon": "people",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
           "id": "sen_light_ent1",
@@ -592,7 +633,8 @@
           "value": "OFF",
           "unit": null,
           "isAlert": false,
-          "icon": "light"
+          "icon": "light",
+          "lastUpdate": "2024-03-20T14:45:00Z"
         }
       ]
     },
@@ -609,7 +651,8 @@
           "value": 72,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
           "id": "sen_temp_dock2",
@@ -618,7 +661,8 @@
           "value": 26,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
           "id": "sen_pres_dock2",
@@ -627,7 +671,8 @@
           "value": 1012,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
           "id": "sen_wind_dock2",
@@ -636,7 +681,8 @@
           "value": 15,
           "unit": "km/h",
           "isAlert": false,
-          "icon": "wind"
+          "icon": "wind",
+          "lastUpdate": "2024-03-20T14:52:00Z"
         }
       ]
     },
@@ -653,7 +699,8 @@
           "value": 42,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         },
         {
           "id": "sen_temp_hang3",
@@ -662,7 +709,8 @@
           "value": 21,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         },
         {
           "id": "sen_pres_hang3",
@@ -671,7 +719,8 @@
           "value": 1013,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         },
         {
           "id": "sen_co2_hang3",
@@ -680,7 +729,8 @@
           "value": 750,
           "unit": "ppm",
           "isAlert": false,
-          "icon": "co2"
+          "icon": "co2",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         },
         {
           "id": "sen_part_hang3",
@@ -689,7 +739,8 @@
           "value": 1.0,
           "unit": "µg/m³",
           "isAlert": false,
-          "icon": "particulate"
+          "icon": "particulate",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         },
         {
           "id": "sen_door_hang3",
@@ -698,7 +749,8 @@
           "value": "Closed",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         },
         {
           "id": "sen_occ_hang3",
@@ -707,7 +759,8 @@
           "value": 0,
           "unit": null,
           "isAlert": false,
-          "icon": "people"
+          "icon": "people",
+          "lastUpdate": "2024-03-19T10:00:00Z"
         }
       ]
     },
@@ -724,7 +777,8 @@
           "value": 20,
           "unit": "°C",
           "isAlert": false,
-          "icon": "temperature"
+          "icon": "temperature",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_hum_white1",
@@ -733,7 +787,8 @@
           "value": 45,
           "unit": "%",
           "isAlert": false,
-          "icon": "humidity"
+          "icon": "humidity",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_pres_white1",
@@ -742,7 +797,8 @@
           "value": 1013,
           "unit": "hPa",
           "isAlert": false,
-          "icon": "pressure"
+          "icon": "pressure",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_part_white1",
@@ -751,7 +807,8 @@
           "value": 0.1,
           "unit": "particles/m³",
           "isAlert": false,
-          "icon": "particulate"
+          "icon": "particulate",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_air_white1",
@@ -760,7 +817,8 @@
           "value": 0.45,
           "unit": "m/s",
           "isAlert": false,
-          "icon": "airflow"
+          "icon": "airflow",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_clean_white1",
@@ -769,7 +827,8 @@
           "value": "ISO 7",
           "unit": null,
           "isAlert": false,
-          "icon": "cleanliness"
+          "icon": "cleanliness",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_door_white1",
@@ -778,7 +837,8 @@
           "value": "Closed",
           "unit": null,
           "isAlert": false,
-          "icon": "door"
+          "icon": "door",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
           "id": "sen_uv_white1",
@@ -787,7 +847,8 @@
           "value": "OFF",
           "unit": null,
           "isAlert": false,
-          "icon": "uv"
+          "icon": "uv",
+          "lastUpdate": "2024-03-20T15:00:00Z"
         }
       ]
     }
