@@ -4,8 +4,8 @@
   "description": "Fake backend API for SmartConnect",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT",
-    "dev": "json-server --watch db.json --port 3000"
+    "start": "node index.js",
+    "dev": "node index.js"
   },
   "keywords": [],
   "author": "",
