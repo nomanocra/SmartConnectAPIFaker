@@ -14,6 +14,20 @@ const middlewares = jsonServer.defaults({
     'Cache-Control': 'public, max-age=300',
   },
 });
+const cors = require('cors');
+
+// Enable CORS for all routes
+server.use(
+  cors({
+    origin: [
+      'http://192.168.1.98:4173',
+      'http://localhost:4173',
+      'http://localhost:5173',
+    ],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
 
 // Set default middlewares (logger, static, cors and no-sniff)
 server.use(middlewares);
