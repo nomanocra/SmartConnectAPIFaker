@@ -161,8 +161,8 @@
       ]
     }
   ],
-  "deviceSensors": {
-    "fct_1a2b3c4d": {
+  "deviceSensors": [
+    {
       "id": "fct_1a2b3c4d",
       "gatewayId": "ZFR52036JI",
       "isConnected": true,
@@ -233,7 +233,7 @@
         }
       ]
     },
-    "fct_5e6f7g8h": {
+    {
       "id": "fct_5e6f7g8h",
       "gatewayId": "ZFR52037JI",
       "isConnected": true,
@@ -304,7 +304,7 @@
         }
       ]
     },
-    "bld_5e4d3c2b": {
+    {
       "id": "bld_5e4d3c2b",
       "gatewayId": "ZFR52034JI",
       "isConnected": true,
@@ -366,7 +366,7 @@
         }
       ]
     },
-    "bld_1a2b3c4d": {
+    {
       "id": "bld_1a2b3c4d",
       "gatewayId": "ZFR52035JI",
       "isConnected": true,
@@ -419,7 +419,7 @@
         }
       ]
     },
-    "bld_dock123": {
+    {
       "id": "bld_dock123",
       "gatewayId": "ZFR52039JI",
       "isConnected": true,
@@ -472,7 +472,7 @@
         }
       ]
     },
-    "bld_lab123": {
+    {
       "id": "bld_lab123",
       "gatewayId": "ZFR52041JI",
       "isConnected": true,
@@ -534,7 +534,7 @@
         }
       ]
     },
-    "bld_9a8b7c6": {
+    {
       "id": "bld_9a8b7c6",
       "gatewayId": "ZFR52038JI",
       "isConnected": true,
@@ -596,7 +596,7 @@
         }
       ]
     },
-    "bld_dock456": {
+    {
       "id": "bld_dock456",
       "gatewayId": "ZFR52040JI",
       "isConnected": true,
@@ -640,7 +640,7 @@
         }
       ]
     },
-    "fct_9i8h7g6f": {
+    {
       "id": "fct_9i8h7g6f",
       "gatewayId": "ZFR52042JI",
       "isConnected": false,
@@ -711,7 +711,7 @@
         }
       ]
     },
-    "bld_white123": {
+    {
       "id": "bld_white123",
       "gatewayId": "ZFR52043JI",
       "isConnected": true,
@@ -791,5 +791,5 @@
         }
       ]
     }
-  }
+  ]
 }
