@@ -237,6 +237,16 @@
           "isAlert": false,
           "icon": "people",
           "lastUpdate": "2024-03-20T14:40:00Z"
+        },
+        {
+          "id": "sen_smoke_hang1",
+          "name": "Smoke Detector",
+          "type": "smoke",
+          "value": "Normal",
+          "unit": null,
+          "isAlert": false,
+          "icon": "smoke",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         }
       ]
     },
@@ -314,6 +324,16 @@
           "unit": null,
           "isAlert": false,
           "icon": "people",
+          "lastUpdate": "2024-03-20T14:45:00Z"
+        },
+        {
+          "id": "sen_smoke_hang2",
+          "name": "Smoke Detector",
+          "type": "smoke",
+          "value": "Normal",
+          "unit": null,
+          "isAlert": false,
+          "icon": "smoke",
           "lastUpdate": "2024-03-20T14:45:00Z"
         }
       ]
@@ -567,6 +587,16 @@
           "isAlert": false,
           "icon": "pressure",
           "lastUpdate": "2024-03-20T14:55:00Z"
+        },
+        {
+          "id": "sen_smoke_lab1",
+          "name": "Smoke Detector",
+          "type": "smoke",
+          "value": "Normal",
+          "unit": null,
+          "isAlert": false,
+          "icon": "smoke",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         }
       ]
     },
@@ -634,6 +664,16 @@
           "unit": null,
           "isAlert": false,
           "icon": "light",
+          "lastUpdate": "2024-03-20T14:45:00Z"
+        },
+        {
+          "id": "sen_smoke_ent1",
+          "name": "Smoke Detector",
+          "type": "smoke",
+          "value": "Normal",
+          "unit": null,
+          "isAlert": false,
+          "icon": "smoke",
           "lastUpdate": "2024-03-20T14:45:00Z"
         }
       ]
@@ -760,6 +800,16 @@
           "unit": null,
           "isAlert": false,
           "icon": "people",
+          "lastUpdate": "2024-03-19T10:00:00Z"
+        },
+        {
+          "id": "sen_smoke_hang3",
+          "name": "Smoke Detector",
+          "type": "smoke",
+          "value": "Normal",
+          "unit": null,
+          "isAlert": false,
+          "icon": "smoke",
           "lastUpdate": "2024-03-19T10:00:00Z"
         }
       ]
