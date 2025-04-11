@@ -459,6 +459,7 @@
         {
           "id": "sen_hum_term2",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 48,
           "unit": "%",
@@ -469,6 +470,7 @@
         {
           "id": "sen_co2_term2",
           "name": "Carbon dioxide",
+          "nom": "Dioxyde de carbone",
           "type": "co2",
           "value": 950,
           "unit": "ppm",
@@ -479,6 +481,7 @@
         {
           "id": "sen_temp_term2",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 22,
           "unit": "°C",
@@ -489,6 +492,7 @@
         {
           "id": "sen_door_term2",
           "name": "Main Gate",
+          "nom": "Porte principale",
           "type": "door",
           "value": "Closed",
           "unit": null,
@@ -499,6 +503,7 @@
         {
           "id": "sen_occ_term2",
           "name": "People Count",
+          "nom": "Nombre de personnes",
           "type": "occupancy",
           "value": 15,
           "unit": null,
@@ -517,6 +522,7 @@
         {
           "id": "sen_hum_dock1",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 75,
           "unit": "%",
@@ -527,6 +533,7 @@
         {
           "id": "sen_temp_dock1",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 28,
           "unit": "°C",
@@ -537,6 +544,7 @@
         {
           "id": "sen_pres_dock1",
           "name": "Pressure",
+          "nom": "Pression",
           "type": "pressure",
           "value": 1013,
           "unit": "hPa",
@@ -547,6 +555,7 @@
         {
           "id": "sen_wind_dock1",
           "name": "Wind Speed",
+          "nom": "Vitesse du vent",
           "type": "wind",
           "value": 12,
           "unit": "km/h",
@@ -557,6 +566,7 @@
         {
           "id": "sen_wave_dock1",
           "name": "Wave Height",
+          "nom": "Hauteur des vagues",
           "type": "wave",
           "value": 0.5,
           "unit": "m",
@@ -575,6 +585,7 @@
         {
           "id": "sen_temp_lab1",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 21,
           "unit": "°C",
@@ -585,6 +596,7 @@
         {
           "id": "sen_hum_lab1",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 45,
           "unit": "%",
@@ -595,6 +607,7 @@
         {
           "id": "sen_part_lab1",
           "name": "Particulate 10",
+          "nom": "Particules 10",
           "type": "particulate",
           "value": 0.5,
           "unit": "µg/m³",
@@ -605,6 +618,7 @@
         {
           "id": "sen_o2_lab1",
           "name": "Oxygen Level",
+          "nom": "Niveau d'oxygène",
           "type": "oxygen",
           "value": 20.9,
           "unit": "%",
@@ -615,6 +629,7 @@
         {
           "id": "sen_co2_lab1",
           "name": "Carbon dioxide",
+          "nom": "Dioxyde de carbone",
           "type": "co2",
           "value": 400,
           "unit": "ppm",
@@ -625,6 +640,7 @@
         {
           "id": "sen_pres_lab1",
           "name": "Pressure",
+          "nom": "Pression",
           "type": "pressure",
           "value": 1013,
           "unit": "hPa",
@@ -635,6 +651,7 @@
         {
           "id": "sen_smoke_lab1",
           "name": "Smoke Detector",
+          "nom": "Détecteur de fumée",
           "type": "smoke",
           "value": "Normal",
           "unit": null,
@@ -645,6 +662,7 @@
         {
           "id": "sen_noise_lab1",
           "name": "Noise Level",
+          "nom": "Niveau sonore",
           "type": "noise",
           "value": 45,
           "unit": "dB",
@@ -674,6 +692,7 @@
         {
           "id": "sen_temp_ent1",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 18,
           "unit": "°C",
@@ -684,6 +703,7 @@
         {
           "id": "sen_hum_ent1",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 55,
           "unit": "%",
@@ -694,6 +714,7 @@
         {
           "id": "sen_mov_ent1",
           "name": "Movement Detector",
+          "nom": "Détecteur de mouvement",
           "type": "movement",
           "value": "Active",
           "unit": null,
@@ -704,6 +725,7 @@
         {
           "id": "sen_door_ent1",
           "name": "Loading Door",
+          "nom": "Porte de chargement",
           "type": "door",
           "value": "Closed",
           "unit": null,
@@ -714,6 +736,7 @@
         {
           "id": "sen_occ_ent1",
           "name": "People Count",
+          "nom": "Nombre de personnes",
           "type": "occupancy",
           "value": 8,
           "unit": null,
@@ -724,6 +747,7 @@
         {
           "id": "sen_light_ent1",
           "name": "Emergency Light",
+          "nom": "Éclairage de secours",
           "type": "light",
           "value": "OFF",
           "unit": null,
@@ -734,6 +758,7 @@
         {
           "id": "sen_smoke_ent1",
           "name": "Smoke Detector",
+          "nom": "Détecteur de fumée",
           "type": "smoke",
           "value": "Normal",
           "unit": null,
@@ -744,6 +769,7 @@
         {
           "id": "sen_noise_ent1",
           "name": "Noise Level",
+          "nom": "Niveau sonore",
           "type": "noise",
           "value": 65,
           "unit": "dB",
@@ -773,6 +799,7 @@
         {
           "id": "sen_hum_dock2",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 72,
           "unit": "%",
@@ -783,6 +810,7 @@
         {
           "id": "sen_temp_dock2",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 26,
           "unit": "°C",
@@ -793,6 +821,7 @@
         {
           "id": "sen_pres_dock2",
           "name": "Pressure",
+          "nom": "Pression",
           "type": "pressure",
           "value": 1012,
           "unit": "hPa",
@@ -803,6 +832,7 @@
         {
           "id": "sen_wind_dock2",
           "name": "Wind Speed",
+          "nom": "Vitesse du vent",
           "type": "wind",
           "value": 15,
           "unit": "km/h",
@@ -821,6 +851,7 @@
         {
           "id": "sen_hum_hang3",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 42,
           "unit": "%",
@@ -831,6 +862,7 @@
         {
           "id": "sen_temp_hang3",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 21,
           "unit": "°C",
@@ -841,6 +873,7 @@
         {
           "id": "sen_pres_hang3",
           "name": "Pressure",
+          "nom": "Pression",
           "type": "pressure",
           "value": 1013,
           "unit": "hPa",
@@ -851,6 +884,7 @@
         {
           "id": "sen_co2_hang3",
           "name": "Carbon dioxide",
+          "nom": "Dioxyde de carbone",
           "type": "co2",
           "value": 750,
           "unit": "ppm",
@@ -861,6 +895,7 @@
         {
           "id": "sen_part_hang3",
           "name": "Particulate 2.5",
+          "nom": "Particules 2.5",
           "type": "particulate",
           "value": 1.0,
           "unit": "µg/m³",
@@ -871,6 +906,7 @@
         {
           "id": "sen_door_hang3",
           "name": "Main Door",
+          "nom": "Porte principale",
           "type": "door",
           "value": "Closed",
           "unit": null,
@@ -881,6 +917,7 @@
         {
           "id": "sen_occ_hang3",
           "name": "People Count",
+          "nom": "Nombre de personnes",
           "type": "occupancy",
           "value": 0,
           "unit": null,
@@ -891,6 +928,7 @@
         {
           "id": "sen_smoke_hang3",
           "name": "Smoke Detector",
+          "nom": "Détecteur de fumée",
           "type": "smoke",
           "value": "Normal",
           "unit": null,
@@ -909,6 +947,7 @@
         {
           "id": "sen_temp_white1",
           "name": "Temperature",
+          "nom": "Température",
           "type": "temperature",
           "value": 20,
           "unit": "°C",
@@ -919,6 +958,7 @@
         {
           "id": "sen_hum_white1",
           "name": "Humidity",
+          "nom": "Humidité",
           "type": "humidity",
           "value": 45,
           "unit": "%",
@@ -929,6 +969,7 @@
         {
           "id": "sen_pres_white1",
           "name": "Pressure",
+          "nom": "Pression",
           "type": "pressure",
           "value": 1013,
           "unit": "hPa",
@@ -939,6 +980,7 @@
         {
           "id": "sen_part_white1",
           "name": "Particulate 10",
+          "nom": "Particules 10",
           "type": "particulate",
           "value": 0.1,
           "unit": "µg/m³",
@@ -949,6 +991,7 @@
         {
           "id": "sen_air_white1",
           "name": "Air Flow",
+          "nom": "Débit d'air",
           "type": "airflow",
           "value": 0.45,
           "unit": "m/s",
@@ -959,6 +1002,7 @@
         {
           "id": "sen_door_white1",
           "name": "Clean Room Door",
+          "nom": "Porte de salle blanche",
           "type": "door",
           "value": "Closed",
           "unit": null,
@@ -969,6 +1013,7 @@
         {
           "id": "sen_uv_white1",
           "name": "UV Light",
+          "nom": "Lampe UV",
           "type": "uv",
           "value": "OFF",
           "unit": null,
@@ -979,6 +1024,7 @@
         {
           "id": "sen_noise_white1",
           "name": "Noise Level",
+          "nom": "Niveau sonore",
           "type": "noise",
           "value": 35,
           "unit": "dB",
