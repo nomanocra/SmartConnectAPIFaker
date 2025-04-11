@@ -247,6 +247,26 @@
           "isAlert": false,
           "icon": "smoke",
           "lastUpdate": "2024-03-20T14:40:00Z"
+        },
+        {
+          "id": "sen_noise_hang1",
+          "name": "Noise Level",
+          "type": "noise",
+          "value": 75,
+          "unit": "dB",
+          "isAlert": false,
+          "icon": "noise",
+          "lastUpdate": "2024-03-20T14:40:00Z"
+        },
+        {
+          "id": "sen_fan_hang1",
+          "name": "Ventilation Fan",
+          "type": "fan",
+          "value": "ON",
+          "unit": null,
+          "isAlert": false,
+          "icon": "fan",
+          "lastUpdate": "2024-03-20T14:40:00Z"
         }
       ]
     },
@@ -597,6 +617,26 @@
           "isAlert": false,
           "icon": "smoke",
           "lastUpdate": "2024-03-20T14:55:00Z"
+        },
+        {
+          "id": "sen_noise_lab1",
+          "name": "Noise Level",
+          "type": "noise",
+          "value": 45,
+          "unit": "dB",
+          "isAlert": false,
+          "icon": "noise",
+          "lastUpdate": "2024-03-20T14:55:00Z"
+        },
+        {
+          "id": "sen_fan_lab1",
+          "name": "Ventilation Fan",
+          "type": "fan",
+          "value": "ON",
+          "unit": null,
+          "isAlert": false,
+          "icon": "fan",
+          "lastUpdate": "2024-03-20T14:55:00Z"
         }
       ]
     },
@@ -674,6 +714,26 @@
           "unit": null,
           "isAlert": false,
           "icon": "smoke",
+          "lastUpdate": "2024-03-20T14:45:00Z"
+        },
+        {
+          "id": "sen_noise_ent1",
+          "name": "Noise Level",
+          "type": "noise",
+          "value": 65,
+          "unit": "dB",
+          "isAlert": false,
+          "icon": "noise",
+          "lastUpdate": "2024-03-20T14:45:00Z"
+        },
+        {
+          "id": "sen_fan_ent1",
+          "name": "Ventilation Fan",
+          "type": "fan",
+          "value": "ON",
+          "unit": null,
+          "isAlert": false,
+          "icon": "fan",
           "lastUpdate": "2024-03-20T14:45:00Z"
         }
       ]
@@ -898,6 +958,26 @@
           "unit": null,
           "isAlert": false,
           "icon": "uv",
+          "lastUpdate": "2024-03-20T15:00:00Z"
+        },
+        {
+          "id": "sen_noise_white1",
+          "name": "Noise Level",
+          "type": "noise",
+          "value": 35,
+          "unit": "dB",
+          "isAlert": false,
+          "icon": "noise",
+          "lastUpdate": "2024-03-20T15:00:00Z"
+        },
+        {
+          "id": "sen_fan_white1",
+          "name": "Ventilation Fan",
+          "type": "fan",
+          "value": "ON",
+          "unit": null,
+          "isAlert": false,
+          "icon": "fan",
           "lastUpdate": "2024-03-20T15:00:00Z"
         }
       ]
