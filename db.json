@@ -210,7 +210,7 @@
         },
         {
           "id": "sen_part_hang1",
-          "name": "Particulate Matter",
+          "name": "Particulate 2.5",
           "type": "particulate",
           "value": 1.2,
           "unit": "µg/m³",
@@ -318,7 +318,7 @@
         },
         {
           "id": "sen_part_hang2",
-          "name": "Particulate Matter",
+          "name": "Particulate 2.5",
           "type": "particulate",
           "value": 1.5,
           "unit": "µg/m³",
@@ -570,7 +570,7 @@
         },
         {
           "id": "sen_part_lab1",
-          "name": "Particulate Matter",
+          "name": "Particulate 10",
           "type": "particulate",
           "value": 0.5,
           "unit": "µg/m³",
@@ -834,7 +834,7 @@
         },
         {
           "id": "sen_part_hang3",
-          "name": "Particulate Matter",
+          "name": "Particulate 2.5",
           "type": "particulate",
           "value": 1.0,
           "unit": "µg/m³",
@@ -912,10 +912,10 @@
         },
         {
           "id": "sen_part_white1",
-          "name": "Particle Count",
+          "name": "Particulate 10",
           "type": "particulate",
           "value": 0.1,
-          "unit": "particles/m³",
+          "unit": "µg/m³",
           "isAlert": false,
           "icon": "particulate",
           "lastUpdate": "2024-03-20T15:00:00Z"
