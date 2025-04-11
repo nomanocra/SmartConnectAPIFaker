@@ -931,16 +931,6 @@
           "lastUpdate": "2024-03-20T15:00:00Z"
         },
         {
-          "id": "sen_clean_white1",
-          "name": "Cleanliness Class",
-          "type": "cleanliness",
-          "value": "ISO 7",
-          "unit": null,
-          "isAlert": false,
-          "icon": "cleanliness",
-          "lastUpdate": "2024-03-20T15:00:00Z"
-        },
-        {
           "id": "sen_door_white1",
           "name": "Clean Room Door",
           "type": "door",
