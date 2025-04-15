@@ -483,57 +483,7 @@
       "lastUpdate": "2024-03-20T14:52:00Z",
       "sensors": [
         {
-          "id": "sen_hum_dock1",
-          "name": "Humidity",
-          "nom": "Humidité",
-          "type": "humidity",
-          "value": 75,
-          "unit": "%",
-          "isAlert": true,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_temp_dock1",
-          "name": "Temperature",
-          "nom": "Température",
-          "type": "temperature",
-          "value": 28,
-          "unit": "°C",
-          "isAlert": false,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_pres_dock1",
-          "name": "Pressure",
-          "nom": "Pression",
-          "type": "pressure",
-          "value": 1013,
-          "unit": "hPa",
-          "isAlert": false,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_wind_dock1",
-          "name": "Wind Speed",
-          "nom": "Vitesse du vent",
-          "type": "wind",
-          "value": 12,
-          "unit": "km/h",
-          "isAlert": false,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_wave_dock1",
-          "name": "Wave Height",
-          "nom": "Hauteur des vagues",
-          "type": "wave",
-          "value": 0.5,
-          "unit": "m",
-          "isAlert": false,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_hum_dock2",
+          "id": "sen_hum_dockB",
           "name": "Humidity",
           "nom": "Humidité",
           "type": "humidity",
@@ -543,7 +493,7 @@
           "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
-          "id": "sen_temp_dock2",
+          "id": "sen_temp_dockB",
           "name": "Temperature",
           "nom": "Température",
           "type": "temperature",
@@ -553,7 +503,7 @@
           "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
-          "id": "sen_pres_dock2",
+          "id": "sen_pres_dockB",
           "name": "Pressure",
           "nom": "Pression",
           "type": "pressure",
@@ -563,7 +513,7 @@
           "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
-          "id": "sen_wind_dock2",
+          "id": "sen_wind_dockB",
           "name": "Wind Speed",
           "nom": "Vitesse du vent",
           "type": "wind",
@@ -573,7 +523,7 @@
           "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
-          "id": "sen_door_dock2",
+          "id": "sen_door_dockB",
           "name": "Main Door",
           "nom": "Porte principale",
           "type": "door",
@@ -583,7 +533,7 @@
           "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
-          "id": "sen_occ_dock2",
+          "id": "sen_occ_dockB",
           "name": "People Count",
           "nom": "Nombre de personnes",
           "type": "occupancy",
@@ -593,7 +543,7 @@
           "lastUpdate": "2024-03-20T14:52:00Z"
         },
         {
-          "id": "sen_light_dock2",
+          "id": "sen_light_dockB",
           "name": "Emergency Light",
           "nom": "Éclairage de secours",
           "type": "light",
@@ -613,32 +563,12 @@
           "lastUpdate": "2024-03-20T14:45:00Z"
         },
         {
-          "id": "sen_hum_dock1",
-          "name": "Humidity",
-          "nom": "Humidité",
-          "type": "humidity",
-          "value": 75,
-          "unit": "%",
-          "isAlert": false,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_temp_dock1",
-          "name": "Temperature",
-          "nom": "Température",
-          "type": "temperature",
-          "value": 24,
-          "unit": "°C",
-          "isAlert": false,
-          "lastUpdate": "2024-03-20T14:50:00Z"
-        },
-        {
-          "id": "sen_pres_dock1",
-          "name": "Pressure",
-          "nom": "Pression",
-          "type": "pressure",
-          "value": 1015,
-          "unit": "hPa",
+          "id": "sen_wave_dockB",
+          "name": "Wave Height",
+          "nom": "Hauteur des vagues",
+          "type": "wave",
+          "value": 0.6,
+          "unit": "m",
           "isAlert": false,
           "lastUpdate": "2024-03-20T14:50:00Z"
         }
@@ -953,6 +883,16 @@
           "unit": null,
           "isAlert": false,
           "lastUpdate": "2024-03-20T15:12:00Z"
+        },
+        {
+          "id": "sen_wave_dockA",
+          "name": "Wave Height",
+          "nom": "Hauteur des vagues",
+          "type": "wave",
+          "value": 0.8,
+          "unit": "m",
+          "isAlert": false,
+          "lastUpdate": "2024-03-20T14:50:00Z"
         }
       ]
     },
@@ -1162,26 +1102,26 @@
     {
       "id": "sen_temp_hang1",
       "history": [
-        { "value": 21.5, "timestamp": "2024-03-20T14:40:00Z" },
-        { "value": 21.8, "timestamp": "2024-03-20T14:35:00Z" },
-        { "value": 21.3, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 21.6, "timestamp": "2024-03-20T14:25:00Z" },
+        { "value": 19.5, "timestamp": "2024-03-20T14:40:00Z" },
+        { "value": 19.8, "timestamp": "2024-03-20T14:35:00Z" },
+        { "value": 20.3, "timestamp": "2024-03-20T14:30:00Z" },
+        { "value": 20.6, "timestamp": "2024-03-20T14:25:00Z" },
         { "value": 21.1, "timestamp": "2024-03-20T14:20:00Z" },
-        { "value": 21.4, "timestamp": "2024-03-20T14:15:00Z" },
+        { "value": 20.4, "timestamp": "2024-03-20T14:15:00Z" },
         { "value": 20.9, "timestamp": "2024-03-20T14:10:00Z" },
         { "value": 21.2, "timestamp": "2024-03-20T14:05:00Z" },
         { "value": 20.7, "timestamp": "2024-03-20T14:00:00Z" },
         { "value": 21.0, "timestamp": "2024-03-20T13:55:00Z" },
-        { "value": 20.5, "timestamp": "2024-03-20T13:50:00Z" },
-        { "value": 20.8, "timestamp": "2024-03-20T13:45:00Z" },
-        { "value": 20.3, "timestamp": "2024-03-20T13:40:00Z" },
-        { "value": 20.6, "timestamp": "2024-03-20T13:35:00Z" },
-        { "value": 20.1, "timestamp": "2024-03-20T13:30:00Z" },
-        { "value": 20.4, "timestamp": "2024-03-20T13:25:00Z" },
-        { "value": 19.9, "timestamp": "2024-03-20T13:20:00Z" },
-        { "value": 20.2, "timestamp": "2024-03-20T13:15:00Z" },
-        { "value": 19.7, "timestamp": "2024-03-20T13:10:00Z" },
-        { "value": 20.0, "timestamp": "2024-03-20T13:05:00Z" }
+        { "value": 22.5, "timestamp": "2024-03-20T13:50:00Z" },
+        { "value": 22.8, "timestamp": "2024-03-20T13:45:00Z" },
+        { "value": 22.3, "timestamp": "2024-03-20T13:40:00Z" },
+        { "value": 22.6, "timestamp": "2024-03-20T13:35:00Z" },
+        { "value": 23.1, "timestamp": "2024-03-20T13:30:00Z" },
+        { "value": 23.4, "timestamp": "2024-03-20T13:25:00Z" },
+        { "value": 23.9, "timestamp": "2024-03-20T13:20:00Z" },
+        { "value": 22.2, "timestamp": "2024-03-20T13:15:00Z" },
+        { "value": 22.7, "timestamp": "2024-03-20T13:10:00Z" },
+        { "value": 21.0, "timestamp": "2024-03-20T13:05:00Z" }
       ]
     },
     {
@@ -1385,7 +1325,7 @@
       ]
     },
     {
-      "id": "sen_hum_dock2",
+      "id": "sen_hum_dockB",
       "history": [
         { "value": 48, "timestamp": "2024-03-20T14:40:00Z" },
         { "value": 47, "timestamp": "2024-03-20T14:35:00Z" },
@@ -1785,57 +1725,7 @@
       ]
     },
     {
-      "id": "sen_wind_dock1",
-      "history": [
-        { "value": 12, "timestamp": "2024-03-20T14:50:00Z" },
-        { "value": 11.5, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 11, "timestamp": "2024-03-20T14:40:00Z" },
-        { "value": 10.5, "timestamp": "2024-03-20T14:35:00Z" },
-        { "value": 10, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 9.5, "timestamp": "2024-03-20T14:25:00Z" },
-        { "value": 9, "timestamp": "2024-03-20T14:20:00Z" },
-        { "value": 8.5, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 8, "timestamp": "2024-03-20T14:10:00Z" },
-        { "value": 7.5, "timestamp": "2024-03-20T14:05:00Z" },
-        { "value": 7, "timestamp": "2024-03-20T14:00:00Z" },
-        { "value": 6.5, "timestamp": "2024-03-20T13:55:00Z" },
-        { "value": 6, "timestamp": "2024-03-20T13:50:00Z" },
-        { "value": 5.5, "timestamp": "2024-03-20T13:45:00Z" },
-        { "value": 5, "timestamp": "2024-03-20T13:40:00Z" },
-        { "value": 4.5, "timestamp": "2024-03-20T13:35:00Z" },
-        { "value": 4, "timestamp": "2024-03-20T13:30:00Z" },
-        { "value": 3.5, "timestamp": "2024-03-20T13:25:00Z" },
-        { "value": 3, "timestamp": "2024-03-20T13:20:00Z" },
-        { "value": 2.5, "timestamp": "2024-03-20T13:15:00Z" }
-      ]
-    },
-    {
-      "id": "sen_wave_dock1",
-      "history": [
-        { "value": 0.5, "timestamp": "2024-03-20T14:50:00Z" },
-        { "value": 0.48, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 0.46, "timestamp": "2024-03-20T14:40:00Z" },
-        { "value": 0.44, "timestamp": "2024-03-20T14:35:00Z" },
-        { "value": 0.42, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 0.4, "timestamp": "2024-03-20T14:25:00Z" },
-        { "value": 0.38, "timestamp": "2024-03-20T14:20:00Z" },
-        { "value": 0.36, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 0.34, "timestamp": "2024-03-20T14:10:00Z" },
-        { "value": 0.32, "timestamp": "2024-03-20T14:05:00Z" },
-        { "value": 0.3, "timestamp": "2024-03-20T14:00:00Z" },
-        { "value": 0.28, "timestamp": "2024-03-20T13:55:00Z" },
-        { "value": 0.26, "timestamp": "2024-03-20T13:50:00Z" },
-        { "value": 0.24, "timestamp": "2024-03-20T13:45:00Z" },
-        { "value": 0.22, "timestamp": "2024-03-20T13:40:00Z" },
-        { "value": 0.2, "timestamp": "2024-03-20T13:35:00Z" },
-        { "value": 0.18, "timestamp": "2024-03-20T13:30:00Z" },
-        { "value": 0.16, "timestamp": "2024-03-20T13:25:00Z" },
-        { "value": 0.14, "timestamp": "2024-03-20T13:20:00Z" },
-        { "value": 0.12, "timestamp": "2024-03-20T13:15:00Z" }
-      ]
-    },
-    {
-      "id": "sen_temp_dock2",
+      "id": "sen_temp_dockB",
       "history": [
         { "value": 26, "timestamp": "2024-03-20T14:52:00Z" },
         { "value": 25.8, "timestamp": "2024-03-20T14:47:00Z" },
@@ -1860,7 +1750,7 @@
       ]
     },
     {
-      "id": "sen_pres_dock2",
+      "id": "sen_pres_dockB",
       "history": [
         { "value": 1012, "timestamp": "2024-03-20T14:52:00Z" },
         { "value": 1011.8, "timestamp": "2024-03-20T14:47:00Z" },
@@ -1885,7 +1775,7 @@
       ]
     },
     {
-      "id": "sen_wind_dock2",
+      "id": "sen_wind_dockB",
       "history": [
         { "value": 15, "timestamp": "2024-03-20T14:52:00Z" },
         { "value": 14.8, "timestamp": "2024-03-20T14:47:00Z" },
@@ -1910,7 +1800,7 @@
       ]
     },
     {
-      "id": "sen_door_dock2",
+      "id": "sen_door_dockB",
       "history": [
         { "value": "Open", "timestamp": "2024-03-20T14:52:00Z" },
         { "value": "Open", "timestamp": "2024-03-20T14:47:00Z" },
@@ -1935,7 +1825,7 @@
       ]
     },
     {
-      "id": "sen_occ_dock2",
+      "id": "sen_occ_dockB",
       "history": [
         { "value": 15, "timestamp": "2024-03-20T14:52:00Z" },
         { "value": 14, "timestamp": "2024-03-20T14:47:00Z" },
@@ -1960,7 +1850,7 @@
       ]
     },
     {
-      "id": "sen_light_dock2",
+      "id": "sen_light_dockB",
       "history": [
         { "value": "ON", "timestamp": "2024-03-20T14:52:00Z" },
         { "value": "ON", "timestamp": "2024-03-20T14:47:00Z" },
@@ -2057,81 +1947,6 @@
         { "value": "OFF", "timestamp": "2024-03-20T13:20:00Z" },
         { "value": "OFF", "timestamp": "2024-03-20T13:15:00Z" },
         { "value": "OFF", "timestamp": "2024-03-20T13:10:00Z" }
-      ]
-    },
-    {
-      "id": "sen_hum_dock1",
-      "history": [
-        { "value": 75, "timestamp": "2024-03-20T14:50:00Z" },
-        { "value": 74, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 73, "timestamp": "2024-03-20T14:40:00Z" },
-        { "value": 72, "timestamp": "2024-03-20T14:35:00Z" },
-        { "value": 71, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 70, "timestamp": "2024-03-20T14:25:00Z" },
-        { "value": 69, "timestamp": "2024-03-20T14:20:00Z" },
-        { "value": 68, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 67, "timestamp": "2024-03-20T14:10:00Z" },
-        { "value": 66, "timestamp": "2024-03-20T14:05:00Z" },
-        { "value": 65, "timestamp": "2024-03-20T14:00:00Z" },
-        { "value": 64, "timestamp": "2024-03-20T13:55:00Z" },
-        { "value": 63, "timestamp": "2024-03-20T13:50:00Z" },
-        { "value": 62, "timestamp": "2024-03-20T13:45:00Z" },
-        { "value": 61, "timestamp": "2024-03-20T13:40:00Z" },
-        { "value": 60, "timestamp": "2024-03-20T13:35:00Z" },
-        { "value": 59, "timestamp": "2024-03-20T13:30:00Z" },
-        { "value": 58, "timestamp": "2024-03-20T13:25:00Z" },
-        { "value": 57, "timestamp": "2024-03-20T13:20:00Z" },
-        { "value": 56, "timestamp": "2024-03-20T13:15:00Z" }
-      ]
-    },
-    {
-      "id": "sen_temp_dock1",
-      "history": [
-        { "value": 28, "timestamp": "2024-03-20T14:50:00Z" },
-        { "value": 27.8, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 27.6, "timestamp": "2024-03-20T14:40:00Z" },
-        { "value": 27.4, "timestamp": "2024-03-20T14:35:00Z" },
-        { "value": 27.2, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 27.0, "timestamp": "2024-03-20T14:25:00Z" },
-        { "value": 26.8, "timestamp": "2024-03-20T14:20:00Z" },
-        { "value": 26.6, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 26.4, "timestamp": "2024-03-20T14:10:00Z" },
-        { "value": 26.2, "timestamp": "2024-03-20T14:05:00Z" },
-        { "value": 26.0, "timestamp": "2024-03-20T14:00:00Z" },
-        { "value": 25.8, "timestamp": "2024-03-20T13:55:00Z" },
-        { "value": 25.6, "timestamp": "2024-03-20T13:50:00Z" },
-        { "value": 25.4, "timestamp": "2024-03-20T13:45:00Z" },
-        { "value": 25.2, "timestamp": "2024-03-20T13:40:00Z" },
-        { "value": 25.0, "timestamp": "2024-03-20T13:35:00Z" },
-        { "value": 24.8, "timestamp": "2024-03-20T13:30:00Z" },
-        { "value": 24.6, "timestamp": "2024-03-20T13:25:00Z" },
-        { "value": 24.4, "timestamp": "2024-03-20T13:20:00Z" },
-        { "value": 24.2, "timestamp": "2024-03-20T13:15:00Z" }
-      ]
-    },
-    {
-      "id": "sen_pres_dock1",
-      "history": [
-        { "value": 1013, "timestamp": "2024-03-20T14:50:00Z" },
-        { "value": 1012.9, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 1012.8, "timestamp": "2024-03-20T14:40:00Z" },
-        { "value": 1012.7, "timestamp": "2024-03-20T14:35:00Z" },
-        { "value": 1012.6, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 1012.5, "timestamp": "2024-03-20T14:25:00Z" },
-        { "value": 1012.4, "timestamp": "2024-03-20T14:20:00Z" },
-        { "value": 1012.3, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 1012.2, "timestamp": "2024-03-20T14:10:00Z" },
-        { "value": 1012.1, "timestamp": "2024-03-20T14:05:00Z" },
-        { "value": 1012.0, "timestamp": "2024-03-20T14:00:00Z" },
-        { "value": 1011.9, "timestamp": "2024-03-20T13:55:00Z" },
-        { "value": 1011.8, "timestamp": "2024-03-20T13:50:00Z" },
-        { "value": 1011.7, "timestamp": "2024-03-20T13:45:00Z" },
-        { "value": 1011.6, "timestamp": "2024-03-20T13:40:00Z" },
-        { "value": 1011.5, "timestamp": "2024-03-20T13:35:00Z" },
-        { "value": 1011.4, "timestamp": "2024-03-20T13:30:00Z" },
-        { "value": 1011.3, "timestamp": "2024-03-20T13:25:00Z" },
-        { "value": 1011.2, "timestamp": "2024-03-20T13:20:00Z" },
-        { "value": 1011.1, "timestamp": "2024-03-20T13:15:00Z" }
       ]
     },
     {
@@ -2565,21 +2380,21 @@
     {
       "id": "sen_hum_lab",
       "history": [
-        { "value": 45, "timestamp": "2024-03-20T14:15:00Z" },
+        { "value": 43, "timestamp": "2024-03-20T14:15:00Z" },
         { "value": 45, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 44, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 44, "timestamp": "2024-03-20T15:00:00Z" },
+        { "value": 49, "timestamp": "2024-03-20T14:45:00Z" },
+        { "value": 47, "timestamp": "2024-03-20T15:00:00Z" },
         { "value": 45, "timestamp": "2024-03-20T15:15:00Z" }
       ]
     },
     {
       "id": "sen_temp_lab",
       "history": [
-        { "value": 22.3, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 22.4, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 22.3, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 22.3, "timestamp": "2024-03-20T15:00:00Z" },
-        { "value": 22.4, "timestamp": "2024-03-20T15:15:00Z" }
+        { "value": 21.3, "timestamp": "2024-03-20T14:15:00Z" },
+        { "value": 21.8, "timestamp": "2024-03-20T14:30:00Z" },
+        { "value": 23.3, "timestamp": "2024-03-20T14:45:00Z" },
+        { "value": 23.3, "timestamp": "2024-03-20T15:00:00Z" },
+        { "value": 22.9, "timestamp": "2024-03-20T15:15:00Z" }
       ]
     },
     {
@@ -2596,10 +2411,10 @@
       "id": "sen_co2_lab",
       "history": [
         { "value": 420, "timestamp": "2024-03-20T14:15:00Z" },
-        { "value": 425, "timestamp": "2024-03-20T14:30:00Z" },
-        { "value": 422, "timestamp": "2024-03-20T14:45:00Z" },
-        { "value": 418, "timestamp": "2024-03-20T15:00:00Z" },
-        { "value": 421, "timestamp": "2024-03-20T15:15:00Z" }
+        { "value": 435, "timestamp": "2024-03-20T14:30:00Z" },
+        { "value": 522, "timestamp": "2024-03-20T14:45:00Z" },
+        { "value": 488, "timestamp": "2024-03-20T15:00:00Z" },
+        { "value": 461, "timestamp": "2024-03-20T15:15:00Z" }
       ]
     },
     {
@@ -2748,13 +2563,43 @@
       ]
     },
     {
-      "sensorId": "sen_hum_hang2",
+      "id": "sen_hum_hang2",
       "history": [
         { "value": 48, "timestamp": "2024-03-20T14:40:00Z" },
         { "value": 47, "timestamp": "2024-03-20T14:25:00Z" },
         { "value": 49, "timestamp": "2024-03-20T14:10:00Z" },
         { "value": 46, "timestamp": "2024-03-20T13:55:00Z" },
         { "value": 48, "timestamp": "2024-03-20T13:40:00Z" }
+      ]
+    },
+    {
+      "id": "sen_wave_dockA",
+      "history": [
+        { "value": 0.3, "timestamp": "2024-03-20T14:50:00Z" },
+        { "value": 0.52, "timestamp": "2024-03-20T14:45:00Z" },
+        { "value": 0.5, "timestamp": "2024-03-20T14:40:00Z" },
+        { "value": 0.65, "timestamp": "2024-03-20T14:35:00Z" },
+        { "value": 0.6, "timestamp": "2024-03-20T14:30:00Z" },
+        { "value": 0.55, "timestamp": "2024-03-20T14:25:00Z" },
+        { "value": 1.5, "timestamp": "2024-03-20T14:20:00Z" },
+        { "value": 0.45, "timestamp": "2024-03-20T14:15:00Z" },
+        { "value": 0.4, "timestamp": "2024-03-20T14:10:00Z" },
+        { "value": 0.35, "timestamp": "2024-03-20T14:05:00Z" }
+      ]
+    },
+    {
+      "id": "sen_wave_dockB",
+      "history": [
+        { "value": 0.6, "timestamp": "2024-03-20T14:50:00Z" },
+        { "value": 0.55, "timestamp": "2024-03-20T14:45:00Z" },
+        { "value": 0.5, "timestamp": "2024-03-20T14:40:00Z" },
+        { "value": 0.45, "timestamp": "2024-03-20T14:35:00Z" },
+        { "value": 0.6, "timestamp": "2024-03-20T14:30:00Z" },
+        { "value": 0.35, "timestamp": "2024-03-20T14:25:00Z" },
+        { "value": 0.3, "timestamp": "2024-03-20T14:20:00Z" },
+        { "value": 0.35, "timestamp": "2024-03-20T14:15:00Z" },
+        { "value": 0.4, "timestamp": "2024-03-20T14:10:00Z" },
+        { "value": 0.55, "timestamp": "2024-03-20T14:05:00Z" }
       ]
     }
   ]
