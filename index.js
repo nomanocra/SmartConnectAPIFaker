@@ -26,7 +26,7 @@ server.use(
       'http://localhost:5173',
       'https://smartconnectapp.vercel.app',
     ],
-    methods: ['GET', 'POST', PUT, 'DELETE', 'PATCH', 'OPTIONS'],
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
     credentials: true,
   })
@@ -50,5 +50,5 @@ const port = process.env.PORT || 3000;
 const host = '0.0.0.0';
 
 server.listen(port, host, () => {
-  console.log(`JSON Server is running on http://${host}:${port}`);
+  console.log(`JSON Server is running on ${host}:${port}`);
 });
