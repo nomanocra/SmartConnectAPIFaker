@@ -14,6 +14,7 @@ const middlewares = jsonServer.defaults({
     'Cache-Control': 'public, max-age=300',
   },
 });
+
 const cors = require('cors');
 
 // Enable CORS for all routes
@@ -25,13 +26,13 @@ server.use(
       'http://localhost:5173',
       'https://smartconnectapp.vercel.app',
     ],
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
+    methods: ['GET', 'POST', PUT, 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With'],
     credentials: true,
   })
 );
 
-// Set default middlewares (logger, static, cors and no-sniff)
+// Set default middlewares
 server.use(middlewares);
 
 // Add custom routes before JSON Server router
